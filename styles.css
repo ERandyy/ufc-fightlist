@@ -1,0 +1,59 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(60, 60, 60);
+  padding: 2rem;
+}
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+}
+
+.card {
+  width: auto;
+  height: 200px;
+  margin-top: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20%;
+  padding: 2rem;
+  background-color: dimgray;
+  display: flex;
+  flex-direction: row;
+}
+.card__container {
+  width: 500px;
+  height: 500px;
+}
+.fighter__one {
+  width: 45%;
+  background-color: rgb(206, 206, 206);
+}
+.fighter__two {
+  width: 45%;
+  background-color: rgb(206, 206, 206);
+}
+
+.Countryimg {
+  width: 20px;
+  height: 20px;
+}
+.fighterimg {
+  width: 50px;
+  height: auto;
+  border: 1px;
+  border-style: solid;
+  border-radius: 100%;
+}
+.vs {
+  padding-top: 3rem;
+}
+.vs__container {
+  background-color: floralwhite;
+}
